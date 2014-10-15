@@ -1,9 +1,10 @@
 ane-admob
 =========
 
-Admob Native Extension for Adobe Air,open source complete include as3,java,and oc, extensive api£¬not need milkman any more.
-everybody can download and rebuild this lib now
-this code is download from Code-Alchemy and have the same api ,I removed all trojan code in it, and add all fun that he did not published.all code is open souce,not any confusion encryption,any body want to contribute to this project can post issues.
+Admob Native Extension for Adobe Air,open source complete include as3,java,and oc, extensive apiï¼Œnot need buy or Alchemy trojan code any more.<br/>
+everybody can download and rebuild this lib now this code is download from Code-Alchemy and have the same api ,<br/>
+I removed all trojan code in it, and add all fun that he did not published.<br/>
+all code is open souce,not any confusion encryption,any body want to contribute to this project can post issues.<br/>
 
 
 ##News:
