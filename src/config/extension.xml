@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/14.0">
+  <id>com.admob.ane</id>
+  <versionNumber>1.0.0</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libAdMobAne.a</nativeLibrary>
+		<initializer>AdMobAneExtInitializer</initializer>
+		<finalizer>AdMobAneExtFinalizer</finalizer>
+            </applicationDeployment>
+    </platform>
+    <platform name="Android-ARM"> 
+        <applicationDeployment> 
+            <nativeLibrary>libAdMobAne.jar</nativeLibrary> 
+            <initializer>com.admob.Extension</initializer> 
+            <finalizer>com.admob.Extension</finalizer> 
+        </applicationDeployment> 
+    </platform> 
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>
