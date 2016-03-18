@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/14.0">
+<application xmlns="http://ns.adobe.com/air/application/20.0">
 
 <!-- Adobe AIR Application Descriptor File Template.
 
@@ -273,7 +273,7 @@
 							<category android:name="android.intent.category.LAUNCHER"/>
 						</intent-filter>
 					</activity>
-					<meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
+					<meta-data android:name="com.google.android.gms.version" android:value="8115000"/>
 					<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 				</application>
             		</manifest>
@@ -286,10 +286,15 @@
 				<string>1</string>
 				<string>2</string>
 			</array>
+				<key>NSAppTransportSecurity</key>
+			<dict>
+			 <key>NSAllowsArbitraryLoads</key>
+			 <true/>
+			</dict>
 		]]></InfoAdditions>
         <requestedDisplayResolution>high</requestedDisplayResolution>
     </iPhone>
 	<extensions>
-        <extensionID>com.codealchemy.ane.admobane</extensionID>
+        <extensionID>com.admob.ane</extensionID>
     </extensions>
 </application>

@@ -1,12 +1,15 @@
 ane-admob
 =========
 
-Admob Native Extension for Adobe Air,open source complete include as3,java,and oc, extensive api£¬not need milkman any more.
+Admob Native Extension for Adobe Air,open source complete include as3,java,and oc, extensive apiï¼Œnot need milkman any more.
 everybody can download and rebuild this lib now
 this code is download from Code-Alchemy and have the same api ,I removed all trojan code in it, and add all fun that he did not published.all code is open souce,not any confusion encryption,any body want to contribute to this project can post issues.
 
 
 ##News:
+18/03/2016
+upgrade to last sdk of admob
+
 15/10/2014
 remove all Trojan code,and publish all source code.
 05/10/2014<br>
@@ -48,12 +51,12 @@ Different Packages are available according to the application targets:
 - Both Platforms
 
 ##Admob SDK Details
-- Android: Google Play services ver. 5.0
-- iOS: Admob SDK 6.12.0 (Admob SDK 6.8.0 in iOS 4.3 compatible version)
+- Android: Google Play services ver. 8.0
+- iOS: Admob SDK 7.7.0 (Admob SDK 7.7.0 in iOS 6.0 compatible version)
 
 ##Device Compatibility:
 Android: From version 2.3<br>
-iOS: From version 4.3<br>
+iOS: From version 6.0<br>
 
 ##Features:
 - Set Render mode type (Android Only)
@@ -396,7 +399,7 @@ Add the following settings in "manifest" tag.
 
 Add the following settings in "application" tag.
 ```xml
-<meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
+<meta-data android:name="com.google.android.gms.version" android:value="8115000"/>
 <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 ```
 
